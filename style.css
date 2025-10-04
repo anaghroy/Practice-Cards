@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  padding: 20px 30px;
+}
+
+.card {
+  height: 50%;
+  width: 20%;
+  background-image: url("./Images/Girl profile 1.jpg");
+  background-size: cover;
+  border-radius: 30px;
+}
+#content {
+  position: absolute;
+  align-items: center;
+  margin-top: 16%;
+  width: 20%;
+  /* background-color: rgb(249, 73, 73); */
+}
+.card h1,
+.card h3 {
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 5px 0;
+}
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  gap: 30px;
+  /* background-color: rgb(250, 159, 159); */
+  margin-top: 108%;
+}
+#hero h4 {
+  color: white;
+  font-size: 0.9rem;
+}
+#hero button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 30px;
+}
