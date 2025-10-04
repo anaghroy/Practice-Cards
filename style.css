@@ -17,6 +17,8 @@ main {
   background-color: gray;
   display: flex;
   padding: 20px 30px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -26,12 +28,14 @@ main {
   background-size: cover;
   border-radius: 30px;
 }
+
 #content {
   position: absolute;
   align-items: center;
   margin-top: 16%;
   width: 20%;
   /* background-color: rgb(249, 73, 73); */
+  color: rgba(247, 128, 24, 0.792);
 }
 .card h1,
 .card h3 {
@@ -47,13 +51,54 @@ main {
   width: 100%;
   gap: 30px;
   /* background-color: rgb(250, 159, 159); */
-  margin-top: 108%;
+  margin-top: 105%;
 }
 #hero h4 {
   color: white;
   font-size: 0.9rem;
+  color: wheat;
 }
 #hero button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 30px;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  filter: brightness(70%);
+  position: relative;
+}
+#content1 {
+  position: absolute;
+  align-items: center;
+  margin-top: -8%;
+  width: 20%;
+  color: rgba(247, 128, 24, 0.792);
+}
+#hero1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 10%;
+  gap: 30px;
+  /* background-color: rgb(250, 159, 159); */
+  margin-top: -5%;
+  margin-left: 4%;
+  color: wheat;
+}
+#hero1 button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
